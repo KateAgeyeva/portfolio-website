@@ -2,6 +2,7 @@ import myImage from '../assets/_MG_3229.jpeg';
 import styles from './AboutMe.module.css';
 import Paragraph from './Paragraph';
 import Paragr from '../models/paragr';
+import HeaderMenu from './HeaderMenu';
 
 function AboutMe() {
     const paragraphs = [
@@ -10,21 +11,9 @@ function AboutMe() {
     ];
     return (
       <div className={styles.container}>
-        <div className={styles.header}>
-          <h2>Katsiaryna Ageyeva</h2>
-          <h3>React/React Native Developer</h3>
-          <div className={styles.contacts}>
-              <p className={styles['margin-right']}>GitHub: KateAgeyeva</p>
-              <p>LinkedIn: Kate Ageyeva</p>
-          </div>
-        </div>
-        <div className={styles.about}>
-          <div>
-            <img src={myImage} className={styles.image}></img>
-          </div>
-          <div className={styles.text}>
-            <Paragraph items={paragraphs} />
-          </div>
+        <HeaderMenu />
+        <div id='info'>
+          <Paragraph items={paragraphs} />
         </div>
       </div>
     );

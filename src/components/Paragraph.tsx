@@ -6,7 +6,7 @@ const Paragraph: React.FC<{items: Paragr[]}> = (props) => {
       <div>
         <ul className={styles.list}>
           {props.items.map((item) => (
-            <li key={item.header}>
+            <li className={styles.item} key={item.header}>
               <h3>{item.header}</h3>
               <p>{item.text}</p>
             </li>
