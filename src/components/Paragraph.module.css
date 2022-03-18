@@ -2,9 +2,13 @@
     list-style-type: none;
     display: flex;
     flex-direction: column;
+    
 }
 
 .item {
-    width: 30rem;
+    width: 40rem;
     align-self: flex-end;
+    background-color: rgba(0, 0, 0, 0.646);
+    padding-left: 1rem;
+    padding-right: 1rem;
 }

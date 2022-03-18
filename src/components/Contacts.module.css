@@ -1,0 +1,16 @@
+.contactscontainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+    padding: 2rem 2rem;
+    background-color: rgba(0, 0, 0, 0.646);
+    width: 40rem;
+}
+
+.picture {
+    width: 20rem;
+    padding-right: 1rem;
+}
