@@ -12,12 +12,12 @@ const HeaderMenu = () => {
             </a>
           </li>
           <li>
-            <a href="">
+            <a href="#projects">
               <p>Projects</p>
             </a>
           </li>
           <li>
-            <a href="">
+            <a href="#contact">
               <p>Contact</p>
             </a>
           </li>
