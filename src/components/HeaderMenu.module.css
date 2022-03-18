@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+.header {
+    margin-bottom: 2rem;
+}
+
+.name {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 5rem;
+}
+
+.position {
+    font-family: 'Julius Sans One', sans-serif;
+    margin-top: -5rem;
+    margin-left: 0.3rem;
+    margin-bottom: 5rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+
+li {
+    font-family: 'Lato', sans-serif;
+}
