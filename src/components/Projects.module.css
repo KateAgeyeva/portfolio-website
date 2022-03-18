@@ -15,7 +15,9 @@
 
 .projtwo {
     width: 50rem;
-    padding-left: 3rem;
+    padding-left: 5rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .img {
@@ -35,7 +37,7 @@
 
 .imgsecondcontainer {
     padding-top: 2rem;
-    padding-left: 2rem;
+    height: 50rem;
 }
 
 .header {
@@ -47,9 +49,4 @@
 .text {
     padding-left: 2rem;
     text-align: left;
-}
-
-.texttwo {
-    text-align: left;
-    margin-top: 2.4rem;
 }

@@ -11,7 +11,7 @@ import im4 from '../assets/4im.jpg';
 import im5 from '../assets/5im.jpg';
 import im6 from '../assets/6im.jpg';
 
-//FILES AVAILABLE FROM A SERVER ONLY
+// FILES AVAILABLE FROM A SERVER ONLY
 // const videoJsOptions = {
 //   sources: [
 //     {
@@ -44,7 +44,7 @@ const Projects = () => {
 
         <div className={styles.projtwo}>
           <p className={styles.header}>Writer Helper Mobile App</p>
-          <p className={styles.texttwo}>
+          <p className={styles.text}>
             The project is based on React Native/Expo CLI. Here you can creat/edit your books, add chapters and notes. <a href="https://github.com/KateAgeyeva/writerhelper" target="_blank">GitHub: KateAgeyeva/writerhelper</a>
           </p>
           <div className={styles.imgsecondcontainer}>
