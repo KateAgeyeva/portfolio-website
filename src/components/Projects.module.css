@@ -26,7 +26,7 @@
 }
 
 .examples {
-    padding-left: 2rem;
+    padding-left: 1rem;
 }
 
 .imgsecond {
@@ -37,6 +37,7 @@
 
 .imgsecondcontainer {
     padding-top: 2rem;
+    padding-left: 1rem;
     height: 50rem;
 }
 
