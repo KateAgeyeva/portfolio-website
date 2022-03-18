@@ -30,7 +30,7 @@ const Projects = () => {
           <p className={styles.text}>
             This project is based on React/Next.js. Here you can find top-20
             latest news in the Netherlands and compare any news worldwide
-            filling a form. GitHub: KateAgeyeva/news-rate
+            filling a form. <a href="https://github.com/KateAgeyeva/news-rate" target="_blank">GitHub: KateAgeyeva/news-rate</a>
           </p>
           <div className={styles.examples}>
               <a href={image} target="_blank">
@@ -45,7 +45,7 @@ const Projects = () => {
         <div className={styles.projtwo}>
           <p className={styles.header}>Writer Helper Mobile App</p>
           <p className={styles.texttwo}>
-            The project is based on React Native/Expo CLI. Here you can creat/edit your books, add chapters and notes. GitHub: KateAgeyeva/writerhelper
+            The project is based on React Native/Expo CLI. Here you can creat/edit your books, add chapters and notes. <a href="https://github.com/KateAgeyeva/writerhelper" target="_blank">GitHub: KateAgeyeva/writerhelper</a>
           </p>
           <div className={styles.imgsecondcontainer}>
               <a href={im1} target="_blank">
