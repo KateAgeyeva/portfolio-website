@@ -8,14 +8,14 @@
 }
 
 .projone {
-    width: 100rem;
+    width: 80rem;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .projtwo {
-    width: 100rem;
+    width: 80rem;
     margin-top: 5rem;
     padding-left: 5rem;
     display: flex;
@@ -53,5 +53,5 @@
 
 .text {
     padding-left: 2rem;
-    text-align: left;
+    text-align: center;
 }
