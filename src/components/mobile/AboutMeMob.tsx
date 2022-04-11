@@ -1,7 +1,8 @@
-import styles from './AboutMe.module.css';
-import Paragraph from './Paragraph';
-import Paragr from '../models/paragr';
-import HeaderMenu from './HeaderMenu';
+import Paragraph from './ParagraphMob';
+import Paragr from '../../models/paragr';
+import HeaderMenuMob from './HeaderMenuMob';
+
+import styles from './AboutMeMob.module.css';
 
 function AboutMe() {
     const paragraphs = [
@@ -9,11 +10,9 @@ function AboutMe() {
         new Paragr('Skills', 'HTML, CSS, Javascript, React, React Native (Expo CLI), Redux/Redux Toolkit, Bootstrap, Tailwind, D3.JS, Node.JS + Express, REST API, Next.JS, Jest (basic), TypeScript (basic), SQL(basic), Git, Jira, Heroku, Vercel, Android Studio, VSCode.')
     ];
     return (
-      <div className={styles.container}>
-        <HeaderMenu />
-        <div id='info'>
-          <Paragraph items={paragraphs} />
-        </div>
+      <div className={styles.about} id="info">
+        <HeaderMenuMob />
+        <Paragraph items={paragraphs} />
       </div>
     );
 };

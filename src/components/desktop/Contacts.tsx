@@ -1,4 +1,4 @@
-import image from '../assets/DSC04250.jpg';
+import image from '../../assets/DSC04250.jpg';
 import styles from './Contacts.module.css';
 
 const Contacts = () => {

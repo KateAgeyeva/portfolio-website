@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
-.header {
+.headertext {
     margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .name {
@@ -22,8 +24,7 @@ a {
     font-size: large;
 }
 
-li {
+.listitems {
     width: max-content;
     font-family: 'Lato', sans-serif;
-
 }

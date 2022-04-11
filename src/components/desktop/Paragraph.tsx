@@ -1,10 +1,10 @@
-import Paragr from "../models/paragr";
+import Paragr from "../../models/paragr";
 import styles from './Paragraph.module.css';
 
 const Paragraph: React.FC<{items: Paragr[]}> = (props) => {
     return (
-      <div>
-        <ul className={styles.list}>
+      <div id="info">
+        <ul className={styles.listpr}>
           {props.items.map((item) => (
             <li className={styles.item} key={item.header}>
               <h3>{item.header}</h3>

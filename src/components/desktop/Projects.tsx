@@ -1,15 +1,15 @@
 //import VideoPlayer from "../models/video";
 
 import styles from './Projects.module.css';
-import image from '../assets/news-rate-1.png';
-import image2 from '../assets/news-rate-2.png';
+import image from '../../assets/news-rate-1.png';
+import image2 from '../../assets/news-rate-2.png';
 
-import im1 from '../assets/1im.jpg';
-import im2 from '../assets/2im.jpg';
-import im3 from '../assets/3im.jpg';
-import im4 from '../assets/4im.jpg';
-import im5 from '../assets/5im.jpg';
-import im6 from '../assets/6im.jpg';
+import im1 from '../../assets/1im.jpg';
+import im2 from '../../assets/2im.jpg';
+import im3 from '../../assets/3im.jpg';
+import im4 from '../../assets/4im.jpg';
+import im5 from '../../assets/5im.jpg';
+import im6 from '../../assets/6im.jpg';
 
 // FILES AVAILABLE FROM A SERVER ONLY
 // const videoJsOptions = {

@@ -2,11 +2,11 @@ import styles from './HeaderMenu.module.css';
 
 const HeaderMenu = () => {
     return (
-      <div className={styles.header}>
+      <div className={styles.headertext}>
         <p className={styles.name}>Katsiaryna Ageyeva</p>
         <p className={styles.position}>React &#38; React Native Developer</p>
         <ul>
-          <li>
+          <li className={styles.listitems}>
             <a href="#info">
               <p>Info</p>
             </a>
