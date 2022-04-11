@@ -5,8 +5,8 @@ const HeaderMenu = () => {
       <div className={styles.headertext}>
         <p className={styles.name}>Katsiaryna Ageyeva</p>
         <p className={styles.position}>React &#38; React Native Developer</p>
-        <ul>
-          <li className={styles.listitems}>
+        <ul className={styles.listitems}>
+          <li>
             <a href="#info">
               <p>Info</p>
             </a>

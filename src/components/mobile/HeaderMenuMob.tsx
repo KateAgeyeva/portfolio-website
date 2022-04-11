@@ -3,7 +3,7 @@ import styles from './HeaderMenuMob.module.css';
 const HeaderMenu = () => {
     return (
       <div className={styles.menu}>
-        <p>Katsiaryna Ageyeva</p>
+        <h2>Katsiaryna Ageyeva</h2>
         <p>React &#38; React Native Developer</p>
         <ul className={styles.menubar}>
           <li>
