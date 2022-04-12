@@ -22,18 +22,18 @@ import styles from './ProjectsMob.module.css';
 //   ],
 // };
 
-const Projects = () => {
+const ProjectsMob = () => {
     // return <VideoPlayer options={videoJsOptions} />;
     return (
       <div className={styles.container} id="projects">
         <div className={styles.projects}>
-          <p>News Rates Web App</p>
+          <p className={styles.header}>News Rates Web App</p>
           <p className={styles.text}>
             Here you can find top-20 latest news in the Netherlands and compare
             any news popularity worldwide filling a form. This website can help
             journalists, researchers and other people. The project is based on
             React/Next.js.{" "}
-            <a href="https://github.com/KateAgeyeva/news-rate" target="_blank">
+            <a className={styles.line} href="https://github.com/KateAgeyeva/news-rate" target="_blank">
               GitHub: KateAgeyeva/news-rate
             </a>
           </p>
@@ -46,14 +46,14 @@ const Projects = () => {
         </div>
 
         <div className={styles.projects}>
-          <p>Writer Helper Mobile App</p>
+          <p className={styles.header}>Writer Helper Mobile App</p>
           <p className={styles.text}>
             Here you can creat/edit books, add chapters and notes, share the
             books and chapters in DOCX format. The app has a simple design to
             let writers concentrating on a content of their books as it could be
             on a plain paper sheet. The project is based on React Native/Expo
             CLI.{" "}
-            <a
+            <a className={styles.line}
               href="https://github.com/KateAgeyeva/writerhelper"
               target="_blank"
             >
@@ -83,4 +83,4 @@ const Projects = () => {
     );
 };
 
-export default Projects;
+export default ProjectsMob;

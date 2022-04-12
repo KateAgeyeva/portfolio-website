@@ -2,6 +2,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: rgba(0, 0, 0, 0.646);
+    padding: 1rem;
+    padding-top: 0.5rem;
+    list-style-type: none;
 }
 
 .text {

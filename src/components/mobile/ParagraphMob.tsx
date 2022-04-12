@@ -1,7 +1,7 @@
 import Paragr from "../../models/paragr";
 import styles from './ParagraphMob.module.css';
 
-const Paragraph: React.FC<{items: Paragr[]}> = (props) => {
+const ParagraphMob: React.FC<{items: Paragr[]}> = (props) => {
     return (
         <ul className={styles.content}>
           {props.items.map((item) => (
@@ -14,4 +14,4 @@ const Paragraph: React.FC<{items: Paragr[]}> = (props) => {
     );
 };
 
-export default Paragraph;
+export default ParagraphMob;

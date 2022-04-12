@@ -1,24 +1,27 @@
 import styles from './HeaderMenuMob.module.css';
 
-const HeaderMenu = () => {
+const HeaderMenuMob = () => {
     return (
       <div className={styles.menu}>
-        <h2>Katsiaryna Ageyeva</h2>
-        <p>React &#38; React Native Developer</p>
+        <p className={styles.name}>Katsiaryna Ageyeva</p>
+        <p className={styles.position}>React &#38; React Native Developer</p>
         <ul className={styles.menubar}>
           <li>
             <a href="#info">
               <p>Info</p>
+              <hr className="solid" />
             </a>
           </li>
           <li>
             <a href="#projects">
               <p>Projects</p>
+              <hr className="solid" />
             </a>
           </li>
           <li>
             <a href="#contact">
               <p>Contact</p>
+              <hr className="solid" />
             </a>
           </li>
         </ul>
@@ -26,4 +29,4 @@ const HeaderMenu = () => {
     );
 };
 
-export default HeaderMenu;
+export default HeaderMenuMob;
